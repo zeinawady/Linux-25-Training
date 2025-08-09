@@ -1,0 +1,18 @@
+FLAG{D4T4_GH0ST_C4UGHT}
+Stage 1:
+    tar -xf Ghost.tar
+    find . -size 0
+    nano stage1_answer.txt
+Stage 2:
+    gunzip system_tools.tar.gz
+    tar -xf system_tools.tar
+    mkdir tools
+    mv diagnostics.sh tools  
+Stage 3:
+    bash diagnostics.sh 2> ../../stage3_answer.txt
+Stage 4:
+    cd asset_links/
+    find . xtype l
+    nano stage4_answer.txt
+Stage 5:
+    bash system/system_check.sh | cat > temp
