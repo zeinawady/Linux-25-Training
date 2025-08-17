@@ -2,39 +2,34 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 17, 2025, 12:56 AM
+- **Time of grading:** Sunday, August 17, 2025, 04:39 PM
 
 - **Task:** Task-3
 
-- **Result:** INCORRECT
+- **Result:** CORRECT
 
 
 Logs:
 ```bash
 Setting up task environment...
 Running student solution with command filtering...
-[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[WARN] Command failed: nano treasure.txt
-[WARN] Command failed: sudo chmod 000 treasure.txt
-[WARN] Command failed: sudo chown hero treasure.txt
-[WARN] Command failed: sudo chmod 600 treasure.txt
     PID TTY          TIME CMD
-    840 ?        00:00:00 systemd
-    841 ?        00:00:00 (sd-pam)
-   1740 ?        00:00:00 hosted-compute-
-   1752 ?        00:00:00 provjobd1189132
-   1787 ?        00:00:01 Runner.Listener
-   1801 ?        00:00:03 Runner.Worker
-   1907 ?        00:00:00 bash
-   1908 ?        00:00:00 grade_task.sh
-  16663 ?        00:00:00 sleep
-  16929 ?        00:00:00 sleep
-  17318 ?        00:00:00 sleep
-  17499 ?        00:00:00 bash
-  17584 ?        00:00:00 sleep
-  17585 ?        00:00:00 timeout
-  17586 ?        00:00:00 ps
+    843 ?        00:00:00 systemd
+    853 ?        00:00:00 (sd-pam)
+   1747 ?        00:00:00 hosted-compute-
+   1759 ?        00:00:00 provjobd3961922
+   1794 ?        00:00:01 Runner.Listener
+   1809 ?        00:00:03 Runner.Worker
+   1915 ?        00:00:00 bash
+   1916 ?        00:00:00 grade_task.sh
+  16593 ?        00:00:00 sleep
+  16860 ?        00:00:00 sleep
+  17248 ?        00:00:00 sleep
+  17431 ?        00:00:00 bash
+  17518 ?        00:00:00 sleep
+  17519 ?        00:00:00 timeout
+  17520 ?        00:00:00 ps
 Executing test...
-Required file not found: treasure.txt
-[FAIL] File 'treasure.txt' missing
+[OK] All checks passed
 Cleaning up...
 ```
