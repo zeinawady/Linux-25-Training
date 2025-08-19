@@ -2,11 +2,11 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Monday, August 18, 2025, 10:17 PM
+- **Time of grading:** Tuesday, August 19, 2025, 11:14 PM
 
 - **Task:** Task-2
 
-- **Result:** INCORRECT
+- **Result:** CORRECT
 
 
 Logs:
@@ -17,7 +17,7 @@ Executing test...
 [INFO] Checking Stage 1...
 [SUCCESS] Stage 1 Answer is correct.
 [INFO] Checking Stage 2...
-[ERROR] Stage 2: You should put extract diagnostics.sh in tools directory, Check stage2 in readme.
+[SUCCESS] Stage 2 Tool is correctly extracted.
 [INFO] Checking Stage 3...
 [SUCCESS] Stage 3 Answer is correct.
 [INFO] Checking Stage 4...
@@ -26,6 +26,6 @@ Executing test...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 5 / 6
-[ERROR] Task failed. Please review the stages and submission guidelines.
+[INFO] Final Score: 6 / 6
+[SUCCESS] Task passed!
 ```
