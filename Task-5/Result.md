@@ -2,17 +2,19 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Wednesday, August 20, 2025, 03:52 AM
+- **Time of grading:** Wednesday, August 20, 2025, 07:51 AM
 
 - **Task:** Task-5
 
-- **Result:** INCORRECT
+- **Result:** CORRECT
 
 
 Logs:
 ```bash
 Setting up task environment...
 Executing test...
-Required file not found: ./Task/solution.txt
+Task 1 Pass!
+Task 2 Pass!
+Congratulations!
 Cleaning up...
 ```
